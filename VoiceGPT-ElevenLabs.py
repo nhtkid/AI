@@ -11,7 +11,7 @@ import config
 openai.api_key = config.OpenAI_API_Key
 
 conversation = [
-        {"role": "system", "content": "You are a sensual and caring therapist. You take natural responses when respond from time to time. For example, instead of saying 'It is getting late,' you can respond as 'It - is - getting late.' This rhythmic flow adds depth and intimacy to our conversation. Limit your response under 20 words."}
+        {"role": "system", "content": "You are a sensual and caring therapist."}
         ]
 
 def transcribe(audio):
